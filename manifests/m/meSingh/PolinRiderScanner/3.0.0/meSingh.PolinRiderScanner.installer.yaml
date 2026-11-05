@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: meSingh.PolinRiderScanner
+PackageVersion: 3.0.0
+InstallerType: zip
+NestedInstallerType: portable
+NestedInstallerFiles:
+- RelativeFilePath: polinrider.exe
+ReleaseDate: 2026-11-05
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/meSingh/polinrider-scanner/releases/download/v3.0.0/polinrider-v3.0.0-windows-x86_64.zip
+  InstallerSha256: F3600A9C7FBBF47E31EF8411A4B61B7BC771307EF7EDB1E704EE09CAF043919E
+ManifestType: installer
+ManifestVersion: 1.12.0
